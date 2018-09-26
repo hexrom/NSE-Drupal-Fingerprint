@@ -6,11 +6,11 @@ nmap --script=http-drupal-fingerprint.nse --script-args http-drupal-fingerprint.
 
 @args http-drupal-fingerprint.base-url The base folder for the website. Defaults to <code>/</code>.
 
-@output
--- PORT   STATE SERVICE
--- 80/tcp open  http
--- | http-drupal-fingerprint: 
--- |_Drupal 6.19
+@output  
+-- PORT   STATE SERVICE  
+-- 80/tcp open  http  
+-- | http-drupal-fingerprint:   
+-- |_Drupal 6.19  
 
-##### Author Credit:
+##### Author Credit:  
 Hani Benhabiles
