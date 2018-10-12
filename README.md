@@ -12,5 +12,5 @@ nmap --script=http-drupal-fingerprint.nse --script-args http-drupal-fingerprint.
 -- | http-drupal-fingerprint:   
 -- |_Drupal 6.19  
 
-##### Author Credit:  
+##### Inspired by:  
 Hani Benhabiles
