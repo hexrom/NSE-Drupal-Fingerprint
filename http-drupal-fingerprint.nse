@@ -44,7 +44,7 @@ local drupal_files =
 --- Detects Drupal version from CHANGELOG.txt body
 --@param changelog content of CHANGELOG.txt file
 local function drupal_changelog(changelog)    
-    local expression = "Drupal [4-7]\.[0-9][0-9]?\.?[0-9], "
+    local expression = "Drupal [4-7].[0-9][0-9]?.?[0-9], "
     local regex = pcre.new(expression, 0, "C")
     local limit, limit2, matches = regex:match(changelog)
 
