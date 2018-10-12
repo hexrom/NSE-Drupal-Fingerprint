@@ -16,16 +16,17 @@ Checks if a website is running Drupal and possibly detect it's version.
 -- |_Drupal 6.19
 
 author = "Hani Benhabiles"
+edited by = "r3dh4nds"
 
 license = "Same as Nmap--See http://nmap.org/book/man-legal.html"
 
 categories = {"safe", "discovery"}
 
 
-require 'shortport'
-require 'http'
-require 'stdnse'
-require 'pcre'
+shortport = require 'shortport'
+http = require 'http'
+stdnse = require 'stdnse'
+pcre = require 'pcre'
 
 portrule = shortport.http
 
