@@ -18,5 +18,5 @@ Checks if a website is running Drupal and possibly detect it's version.
 Author:    
 Hani Benhabiles  
 Edited by:  
-r3dh4nds
+TacticThreat
 
