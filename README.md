@@ -16,3 +16,4 @@ Checks if a website is running Drupal and possibly detect it's version.
 -- |_Drupal 6.19  
 
 
+This is an edited version of https://seclists.org/nmap-dev/2011/q2/490
