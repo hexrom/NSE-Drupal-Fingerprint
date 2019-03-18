@@ -16,7 +16,7 @@ Checks if a website is running Drupal and possibly detect it's version.
 -- |_Drupal 6.19
 
 author = "Hani Benhabiles"
-edited by = "TacticThreat"
+edited = "tacticthreat"
 
 license = "Same as Nmap--See http://nmap.org/book/man-legal.html"
 
