@@ -15,8 +15,4 @@ Checks if a website is running Drupal and possibly detect it's version.
 -- | http-drupal-fingerprint:   
 -- |_Drupal 6.19  
 
-Author:    
-Hani Benhabiles  
-Edited by:  
-malef1cal
 
